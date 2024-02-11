@@ -7,10 +7,12 @@ nav {
   background-color: #000000;
   color: #f8eeee;
   gap: 650px;
+  position: relative;
 }
 
 nav p {
   display: inline;
+  font-size: 24px;
 }
 
 nav ul {

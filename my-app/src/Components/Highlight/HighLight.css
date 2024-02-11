@@ -2,3 +2,9 @@ highlight {
   height: 400px;
   background-color: aqua;
 }
+
+highlight img {
+  width: 100vw;
+  height: auto;
+  margin-top: 0px;
+}

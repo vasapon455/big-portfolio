@@ -1,11 +1,21 @@
 html {
-  width: 1440px;
+  width: 100vw;
+  padding: auto;
+  margin: auto;
 }
 
-img {
-  width: 1440px;
+body {
+  position: relative;
+  padding: auto;
+  margin: auto;
 }
 
 nav {
-  width: 1160px;
+  width: 100vw;
+  height: 158px;
+}
+
+p {
+  font-family: "Mitr", sans-serif;
+  font-weight: 400px;
 }
