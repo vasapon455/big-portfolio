@@ -1,3 +1,9 @@
+import Contact from "../Section/Contact/Contact";
+
 export default function Footer() {
-  return <footer></footer>;
+  return (
+    <footer>
+      <Contact />
+    </footer>
+  );
 }
