@@ -1,0 +1,30 @@
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #f8eeee;
+  gap: 1400px;
+  position: relative;
+  z-index: 1;
+}
+
+nav p {
+  display: inline;
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav li {
+  text-decoration: none;
+  list-style: none;
+}
+
+nav p:hover {
+  color: #03bb48;
+}
