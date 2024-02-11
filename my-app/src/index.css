@@ -23,6 +23,12 @@ p {
   color: #f8eeee;
 }
 
+a {
+  font-family: "Mitr", sans-serif;
+  font-weight: 400px;
+  color: #f8eeee;
+}
+
 h2 {
   font-family: "Mitr", sans-serif;
   color: #f8eeee;
@@ -39,5 +45,5 @@ span {
 
 .section-header {
   margin-top: 200px;
-  margin-left: 315px;
+  margin-left: 300px;
 }

@@ -11,10 +11,10 @@ export default function NavBar() {
   };
   useEffect(() => {
     window.addEventListener("scroll", handleScroll, { passive: true });
-    if (scrollPosition > 1600) {
+    if (scrollPosition > 1300) {
       setNavBarPosition("fixed");
     } else {
-      setNavBarPosition("static");
+      setNavBarPosition();
     }
 
     return () => {
@@ -26,14 +26,14 @@ export default function NavBar() {
     <nav style={{ position: navBarPosition }}>
       <p>VARUT_O</p>
       <ul>
-        <li>
-          <p>Work</p>
+        <li onClick={{}}>
+          <a href="#works">Work</a>
         </li>
         <li>
           <p>|</p>
         </li>
         <li>
-          <p>Biography</p>
+          <a href="#biography">Biography</a>
         </li>
       </ul>
     </nav>
