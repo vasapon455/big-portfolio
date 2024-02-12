@@ -1,0 +1,56 @@
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #f8eeee;
+  gap: 950px;
+  position: relative;
+  z-index: 1;
+  filter: drop-shadow(1px 1px black);
+}
+
+nav a {
+  display: inline;
+  font-size: 24px;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav p {
+  display: inline;
+  font-size: 24px;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav a:hover {
+  color: #03bb48;
+}
+
+@media screen and (max-width: 1400px) {
+  nav {
+    gap: 300px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  nav {
+    gap: 20px;
+  }
+  nav a {
+    font-size: 12px;
+  }
+
+  nav p {
+    font-size: 12px;
+  }
+}
