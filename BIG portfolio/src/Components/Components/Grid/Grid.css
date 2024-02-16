@@ -1,0 +1,12 @@
+.grid-container {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item img {
+  width: 400px;
+  height: auto;
+}
