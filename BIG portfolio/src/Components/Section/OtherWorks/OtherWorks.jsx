@@ -1,4 +1,5 @@
-import SectionHeader from "../../SectionHeader";
+import GridContainer from "../../Components/Grid/GridContainer";
+import SectionHeader from "../../Components/SectionHeader";
 
 export default function OtherWorks() {
   return (
@@ -7,7 +8,7 @@ export default function OtherWorks() {
         <span>Work</span>
         <h2>Other Works</h2>
       </SectionHeader>
-      <div style={{ height: "2000px" }}></div>
+      <GridContainer />
     </section>
   );
 }

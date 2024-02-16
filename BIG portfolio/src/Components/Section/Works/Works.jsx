@@ -1,4 +1,5 @@
-import SectionHeader from "../../SectionHeader";
+import CardContainer from "../../Components/Card/CardContainer";
+import SectionHeader from "../../Components/SectionHeader";
 
 export default function Works() {
   return (
@@ -7,7 +8,11 @@ export default function Works() {
         <span>Work</span>
         <h2>My Works</h2>
       </SectionHeader>
-      <div style={{ height: "2000px" }}></div>
+      <CardContainer header={"Sound Design For Movie Trailer"} />
+      <CardContainer header={"Sound Design For TV Commercial"} />
+      <CardContainer header={"Sound Editing & Mixing For Podcast"} />
+      <CardContainer header={"Music For Commercial Demo Reels"} />
+      <CardContainer header={"Designing Audio Effect Plugin & Instrument"} />
     </section>
   );
 }
