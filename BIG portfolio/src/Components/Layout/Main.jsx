@@ -7,7 +7,7 @@ export default function Main() {
     <main>
       <Works />
       <OtherWorks />
-      <Biography />
+      <Biography id="biography" />
     </main>
   );
 }

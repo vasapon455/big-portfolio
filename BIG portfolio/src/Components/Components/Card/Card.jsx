@@ -6,7 +6,7 @@ export default function Card({ heading, date, text, image }) {
       <img src={image} className="card-image" alt="work" />
       <div className="card-right">
         <h4>{heading}</h4>
-        <span>{date}</span>
+        <h5>{date}</h5>
         <p>{text}</p>
       </div>
     </div>

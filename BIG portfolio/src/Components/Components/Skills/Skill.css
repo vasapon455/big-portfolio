@@ -1,0 +1,38 @@
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 101px;
+  width: 100vw;
+  height: auto;
+}
+
+.skill {
+  width: 70vw;
+}
+
+.skill img {
+  width: 40px;
+  height: auto;
+  border-radius: 100px;
+}
+
+.skill-header-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  height: 40px;
+}
+
+.skill-header-container h2 {
+  display: inline;
+  font-size: 36px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.skill p {
+  width: auto;
+}
