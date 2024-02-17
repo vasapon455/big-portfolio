@@ -24,10 +24,10 @@ export default function NavBar() {
 
   return (
     <nav style={{ position: navBarPosition }}>
-      <p>VARUT_O</p>
+      <img src="assets/logo.svg" alt="logo"></img>
       <ul>
         <li>
-          <a href="#work">Work</a>
+          <a href="#work-section">Work</a>
         </li>
         <li>
           <p>|</p>
