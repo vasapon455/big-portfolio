@@ -1,58 +1,72 @@
 import CardContainer from "../../Components/Card/CardContainer";
 import SectionHeader from "../../Components/SectionHeader";
 import Card from "../../Components/Card/Card";
+import {
+  workHeaderData,
+  workData1,
+  workData2,
+  workData3,
+  workData4,
+  workData5,
+} from "../../../Data/Data";
 
 export default function Works() {
-  const workData = [
-    { header: "Sound Design For Movie Trailer" },
-    { header: "Sound Design For TV Commercial" },
-    { header: "Sound Editing & Mixing For Podcast" },
-    { header: "Music For Commercial Demo Reels" },
-    { header: "Designing Audio Effect Plugin & Instrument" },
-  ];
-
   return (
     <section id="work-section">
       <SectionHeader>
         <h2>Work</h2>
         <h1>My Works</h1>
       </SectionHeader>
-      {workData.map((data) => (
-        <CardContainer header={data.header}>
+      <CardContainer header={workHeaderData[0].header}>
+        {workData1.map((data) => (
           <Card
-            heading={"海上救援猛！"}
-            date={"DD/MM/YYYY"}
-            text={
-              "由林超賢導演、梁鳳英監製攜手打造，並找來彭于晏、王彦霖、辛芷蕾、王雨甜、徐洋、陳家樂及李岷城主演的首部海上救援題材國產大片《緊急救援》預告出爐，並將於明年初登上大銀幕，為大家上演一幕幕驚心動魄嘅救援場面！2020年大年初一，救人英雄，勢不可擋！"
-            }
-            image="assets/highlight.jpg"
+            key={data.id}
+            heading={data.header}
+            text={data.text}
+            image={data.image}
           />
+        ))}
+      </CardContainer>
+      <CardContainer header={workHeaderData[1].header}>
+        {workData2.map((data) => (
           <Card
-            heading={"海上救援猛！"}
-            date={"DD/MM/YYYY"}
-            text={
-              "由林超賢導演、梁鳳英監製攜手打造，並找來彭于晏、王彦霖、辛芷蕾、王雨甜、徐洋、陳家樂及李岷城主演的首部海上救援題材國產大片《緊急救援》預告出爐，並將於明年初登上大銀幕，為大家上演一幕幕驚心動魄嘅救援場面！2020年大年初一，救人英雄，勢不可擋！"
-            }
-            image="assets/highlight.jpg"
+            key={data.id}
+            heading={data.header}
+            text={data.text}
+            image={data.image}
           />
+        ))}
+      </CardContainer>
+      <CardContainer header={workHeaderData[2].header}>
+        {workData3.map((data) => (
           <Card
-            heading={"海上救援猛！"}
-            date={"DD/MM/YYYY"}
-            text={
-              "由林超賢導演、梁鳳英監製攜手打造，並找來彭于晏、王彦霖、辛芷蕾、王雨甜、徐洋、陳家樂及李岷城主演的首部海上救援題材國產大片《緊急救援》預告出爐，並將於明年初登上大銀幕，為大家上演一幕幕驚心動魄嘅救援場面！2020年大年初一，救人英雄，勢不可擋！"
-            }
-            image="assets/highlight.jpg"
+            key={data.id}
+            heading={data.header}
+            text={data.text}
+            image={data.image}
           />
+        ))}
+      </CardContainer>
+      <CardContainer header={workHeaderData[3].header}>
+        {workData4.map((data) => (
           <Card
-            heading={"海上救援猛！"}
-            date={"DD/MM/YYYY"}
-            text={
-              "由林超賢導演、梁鳳英監製攜手打造，並找來彭于晏、王彦霖、辛芷蕾、王雨甜、徐洋、陳家樂及李岷城主演的首部海上救援題材國產大片《緊急救援》預告出爐，並將於明年初登上大銀幕，為大家上演一幕幕驚心動魄嘅救援場面！2020年大年初一，救人英雄，勢不可擋！"
-            }
-            image="assets/highlight.jpg"
+            key={data.id}
+            heading={data.header}
+            text={data.text}
+            image={data.image}
           />
-        </CardContainer>
-      ))}
+        ))}
+      </CardContainer>
+      <CardContainer header={workHeaderData[4].header}>
+        {workData5.map((data) => (
+          <Card
+            key={data.id}
+            heading={data.header}
+            text={data.text}
+            image={data.image}
+          />
+        ))}
+      </CardContainer>
     </section>
   );
 }

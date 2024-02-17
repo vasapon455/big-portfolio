@@ -1,6 +1,7 @@
 import GridContainer from "../../Components/Grid/GridContainer";
 import SectionHeader from "../../Components/SectionHeader";
 import GridItem from "../../Components/Grid/GridItem";
+import { otherWorkData } from "../../../Data/Data";
 
 export default function OtherWorks() {
   return (
@@ -10,15 +11,9 @@ export default function OtherWorks() {
         <h1>Other Works</h1>
       </SectionHeader>
       <GridContainer>
-        <GridItem image={"assets/highlight.jpg"} text="Hello" />
-        <GridItem image={"assets/highlight.jpg"} text="Hello" />
-        <GridItem image={"assets/highlight.jpg"} text="Hello" />
-        <GridItem image={"assets/highlight.jpg"} text="Hello" />
-        <GridItem image={"assets/highlight.jpg"} text="Hello" />
-        <GridItem image={"assets/highlight.jpg"} text="Hello" />
-        <GridItem image={"assets/highlight.jpg"} text="Hello" />
-        <GridItem image={"assets/highlight.jpg"} text="Hello" />
-        <GridItem image={"assets/highlight.jpg"} text="Hello" />
+        {otherWorkData.map((data) => (
+          <GridItem key={data.id} image={data.image} text={data.text} />
+        ))}
       </GridContainer>
     </section>
   );
