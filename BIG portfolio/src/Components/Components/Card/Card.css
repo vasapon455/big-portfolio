@@ -37,7 +37,6 @@
 .card-right h4 {
   font-family: "Mitr", sans-serif;
   color: #000000;
-  font-size: 48px;
   font-weight: 500;
   text-overflow: ellipsis;
   margin: 0px;
@@ -50,7 +49,6 @@
 }
 
 .card-right span {
-  font-size: 12px;
   color: #000000;
 }
 
@@ -58,4 +56,19 @@
   object-fit: cover;
   width: 33vw;
   height: auto;
+}
+
+@media screen and (max-width: 1400px) {
+  .card {
+    width: 40vw;
+    height: auto;
+    flex-direction: row;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .card img {
+    width: 20vw;
+    object-fit: cover;
+  }
 }
