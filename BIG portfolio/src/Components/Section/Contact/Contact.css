@@ -1,6 +1,39 @@
-contact .contact-me {
+#contact-section {
+  height: 600px;
+  margin: 0px;
+}
+
+.contact-me {
   position: relative;
-  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
   height: auto;
+  gap: 75px;
+  padding: 60px;
   background-color: #000000;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+}
+
+.contact-me img {
+  margin-right: 20px;
+}
+
+.contact-me a {
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+.contact-me a:hover {
+  color: #03bb48;
 }

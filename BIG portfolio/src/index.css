@@ -37,7 +37,7 @@ h2 {
   font-family: "Mitr", sans-serif;
   color: #f8eeee;
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 h3 {
@@ -64,24 +64,53 @@ span {
   font-weight: 400;
 }
 
+article {
+  margin-top: 140px;
+  color: #f8eeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 101px;
+  flex-direction: column;
+}
+
+article img {
+  width: 400px;
+  height: 450px;
+  object-fit: cover;
+}
+
+article p {
+  width: 540px;
+  height: auto;
+  font-size: 24px;
+}
+
+.article-container {
+  display: flex;
+  gap: 140px;
+  justify-content: center;
+  align-items: center;
+}
+
 section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
+  margin-bottom: 200px;
   position: relative;
 }
 
 .section-header-container {
   display: flex;
-  position: relative;
-  justify-content: left;
+
+  justify-content: center;
   align-items: center;
   text-align: left;
   margin-top: 200px;
-  width: 70vw;
-  margin-left: 140px;
+  margin-right: 800px;
 }
 
 .section-header p {

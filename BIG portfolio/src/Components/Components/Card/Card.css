@@ -21,9 +21,15 @@
   display: flex;
   flex-direction: row;
   gap: 100px;
-  width: 70vw;
+  width: 1200px;
   height: 540px;
   background-color: #f8eeee;
+}
+
+.card img {
+  object-fit: cover;
+  width: 540px;
+  height: auto;
 }
 
 .card-right {
@@ -50,12 +56,6 @@
 
 .card-right span {
   color: #000000;
-}
-
-.card img {
-  object-fit: cover;
-  width: 33vw;
-  height: auto;
 }
 
 @media screen and (max-width: 1400px) {
