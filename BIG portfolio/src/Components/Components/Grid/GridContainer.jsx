@@ -1,12 +1,5 @@
 import "./Grid.css";
-import GridItem from "./GridItem";
 
-export default function GridContainer() {
-  return (
-    <div className="grid-container">
-      <GridItem image={"assets/highlight.jpg"} />
-      <GridItem image={"assets/highlight.jpg"} />
-      <GridItem image={"assets/highlight.jpg"} />
-    </div>
-  );
+export default function GridContainer({ children }) {
+  return <div className="grid-container">{children}</div>;
 }

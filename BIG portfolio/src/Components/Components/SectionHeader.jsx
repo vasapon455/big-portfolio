@@ -1,7 +1,7 @@
 export default function SectionHeader({ children }) {
   return (
     <div className="section-header-container">
-      <div className="section-header">{children}</div>;
+      <header className="section-header">{children}</header>
     </div>
   );
 }

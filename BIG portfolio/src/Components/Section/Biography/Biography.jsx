@@ -1,12 +1,14 @@
-import SectionHeader from "../../SectionHeader";
+import SectionHeader from "../../Components/SectionHeader";
+import Article from "../../Components/Article/Article";
 
 export default function Biography() {
   return (
-    <section id="biography">
+    <section id="biography-section">
       <SectionHeader>
-        <span>Biography</span>
-        <h2>Varut Opaswatanakul</h2>
+        <h2>Biography</h2>
+        <h1>Varut Opaswatanakul</h1>
       </SectionHeader>
+      <Article id="biography" />
     </section>
   );
 }
