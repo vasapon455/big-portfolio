@@ -15,6 +15,6 @@ export default function OtherWorks() {
           <GridItem key={data.id} image={data.image} text={data.text} />
         ))}
       </GridContainer>
-    </section>
+    </section> 
   );
 }

@@ -50,6 +50,10 @@ nav a:hover {
   }
 }
 
+nav img {
+  width: 50px;
+}
+
 @media screen and (max-width: 850px) {
   nav {
     height: 37px;
