@@ -2,11 +2,11 @@ export default function CardContainer({ header, children }) {
   return (
     <>
       <div className="card-container-header">
-        <img src="assets/section-line.svg" alt="line" width="320px"></img>
+        <img src="assets/section-line.svg" alt="line" width="20%"></img>
         <h2>{header}</h2>
         <img
           style={{ transform: "rotate(180deg)" }}
-          width="320px"
+          width="20%"
           src="assets/section-line.svg"
           alt="line"
         ></img>

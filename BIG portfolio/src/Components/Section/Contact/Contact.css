@@ -4,6 +4,7 @@
 }
 
 .contact-me {
+  margin-top: 101px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -36,4 +37,35 @@
 
 .contact-me a:hover {
   color: #03bb48;
+}
+
+@media screen and (max-width: 1400px) {
+  #contact-section {
+    height: 300px;
+  }
+
+  .contact-me {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    gap: 75px;
+    padding: 0px;
+
+    background-color: #000000;
+  }
+  #contact-section {
+    height: auto;
+    margin: 0px;
+  }
+}
+.contact-me a {
+  font-size: 18px;
+}
+.contact-me img {
+  width: 25px;
+  height: auto;
 }

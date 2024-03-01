@@ -75,9 +75,9 @@ article {
 }
 
 article img {
-  width: 400px;
-  height: 450px;
   object-fit: cover;
+  width: 540px;
+  height: auto;
 }
 
 article p {
@@ -99,13 +99,12 @@ section {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   position: relative;
 }
 
 .section-header-container {
   display: flex;
-
   justify-content: center;
   align-items: center;
   text-align: left;
@@ -123,7 +122,40 @@ section {
 }
 
 @media screen and (max-width: 1400px) {
+  section {
+    margin-bottom: 0px;
+  }
+
+  .section-header-container {
+    margin-top: 100px;
+    margin-right: 0px;
+  }
+
+  article {
+    gap: 40px;
+    margin-top: 70px;
+  }
+
+  .article-container {
+    flex-direction: column;
+    gap: 70px;
+
+    width: 40vw;
+  }
+
+  article img {
+    object-fit: cover;
+    width: 40vw;
+    height: auto;
+  }
+
   p {
+    font-size: 8px;
+  }
+
+  article p {
+    width: auto;
+    height: auto;
     font-size: 8px;
   }
 

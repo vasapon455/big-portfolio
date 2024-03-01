@@ -10,6 +10,7 @@
 
 .card-container-header {
   margin-top: 140px;
+  margin-bottom: 140px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -62,13 +63,24 @@
   .card {
     width: 40vw;
     height: auto;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 40px;
     padding: 20px;
   }
+  .card-right {
+    margin: 0px;
+  }
+
+  .card-container-header {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+  }
 
   .card img {
-    width: 20vw;
+    width: 40vw;
     object-fit: cover;
   }
 }
