@@ -5,9 +5,10 @@
 .grid-container {
   display: grid;
   place-items: center;
-  width: auto;
+  justify-content: center;
+  width: 100vw;
   margin-top: 140px;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   column-gap: 25px;
   row-gap: 25px;
 }
@@ -19,7 +20,7 @@
 
 .grid-item img {
   width: 400px;
-  height: 400px;
+  height: 800px;
   object-fit: cover;
 }
 
@@ -39,7 +40,7 @@
   color: #f8eeee;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1600px) {
   .grid-container {
     display: grid;
     place-items: center;
@@ -53,8 +54,8 @@
     font-size: 24px;
   }
   .grid-item img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
   }
 }

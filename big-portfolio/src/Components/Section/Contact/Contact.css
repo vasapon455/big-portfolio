@@ -1,5 +1,5 @@
 #contact-section {
-  height: 600px;
+  height: 500px;
   margin: 0px;
 }
 
@@ -13,7 +13,7 @@
   width: 100vw;
   height: auto;
   gap: 75px;
-  padding: 60px;
+
   background-color: #000000;
 }
 
@@ -63,7 +63,7 @@
   }
 }
 .contact-me a {
-  font-size: 18px;
+  font-size: 24px;
 }
 .contact-me img {
   width: 25px;

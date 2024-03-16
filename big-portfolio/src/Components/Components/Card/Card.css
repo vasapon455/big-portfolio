@@ -16,6 +16,13 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
+  width: auto;
+  text-align: center;
+}
+
+.card-container-header h2 {
+  width: auto;
+  object-fit: cover;
 }
 
 .card {
@@ -57,6 +64,10 @@
 
 .card-right span {
   color: #000000;
+}
+
+.line {
+  width: 30vw;
 }
 
 @media screen and (max-width: 1400px) {

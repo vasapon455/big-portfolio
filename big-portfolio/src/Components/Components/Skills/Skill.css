@@ -38,8 +38,11 @@
   text-align: center;
 }
 
-.skill p {
-  width: auto;
+.skill ul {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 @media screen and (max-width: 1400px) {
@@ -55,11 +58,11 @@
   .skill {
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
   }
   .skill img {
-    width: 20px;
-    height: 20px;
+    width: auto;
+    height: 40px;
   }
 
   .skill-header-container h2 {

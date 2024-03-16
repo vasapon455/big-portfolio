@@ -58,6 +58,13 @@ h5 {
   font-weight: 300;
 }
 
+li {
+  font-family: "Mitr", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #f8eeee;
+}
+
 span {
   font-family: "Mitr", sans-serif;
   color: #f8eeee;
@@ -104,12 +111,14 @@ section {
 }
 
 .section-header-container {
-  display: flex;
-  justify-content: center;
+  display: inline-flex;
+  justify-content: flex-start;
   align-items: center;
   text-align: left;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-right: 800px;
+  margin-left: 200px;
+  width: 600px;
 }
 
 .section-header p {
@@ -129,6 +138,9 @@ section {
   .section-header-container {
     margin-top: 100px;
     margin-right: 0px;
+    margin-left: 0px;
+    width: auto;
+    text-align: center;
   }
 
   article {
@@ -138,29 +150,32 @@ section {
 
   .article-container {
     flex-direction: column;
-    gap: 70px;
-
+    gap: 40px;
     width: 40vw;
   }
 
   article img {
     object-fit: cover;
-    width: 40vw;
+    width: 42vw;
     height: auto;
   }
 
   p {
-    font-size: 8px;
+    font-size: 12px;
   }
 
   article p {
     width: auto;
     height: auto;
-    font-size: 8px;
+    font-size: 12px;
+  }
+
+  li {
+    font-size: 12px;
   }
 
   a {
-    font-size: 8px;
+    font-size: 12px;
     font-family: "Mitr", sans-serif;
     font-weight: 400;
     color: #f8eeee;
@@ -189,7 +204,7 @@ section {
   h5 {
     font-family: "Mitr", sans-serif;
     color: #000000;
-    font-size: 6px;
+    font-size: 12px;
     font-weight: 300;
   }
 }

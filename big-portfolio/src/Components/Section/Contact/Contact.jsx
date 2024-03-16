@@ -16,7 +16,7 @@ export default function Contact() {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll, { passive: true });
-    if (scrollPosition > 20000) {
+    if (scrollPosition > 10000) {
       setFooterPosition({
         position: "fixed",
         top: "10vh",
@@ -26,7 +26,7 @@ export default function Contact() {
         padding: "0px",
         filter: "opacity(80%)",
       });
-      if (scrollPosition >= 21500) {
+      if (scrollPosition >= 12000) {
         setFooterPosition();
       }
     } else {

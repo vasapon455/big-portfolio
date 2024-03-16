@@ -1,12 +1,12 @@
 import Biography from "../Section/Biography/Biography";
-import OtherWorks from "../Section/OtherWorks/OtherWorks";
+import Hero from "../Section/Hero/Hero";
 import Works from "../Section/Works/Works";
 
 export default function Main() {
   return (
     <main>
+      <Hero />
       <Works />
-      <OtherWorks />
       <Biography id="biography" />
     </main>
   );

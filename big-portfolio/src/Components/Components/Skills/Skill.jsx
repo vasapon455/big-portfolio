@@ -7,7 +7,11 @@ export default function Skill({ img, header, body }) {
         <img src={img} alt="icon" />
         <h2>{header}</h2>
       </div>
-      <p>{body}</p>
+      <ul>
+        {body.map((list) => (
+          <li key={list.id}>{list.text}</li>
+        ))}
+      </ul>
     </div>
   );
 }
