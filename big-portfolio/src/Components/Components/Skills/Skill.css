@@ -26,8 +26,12 @@
 .skill-header-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
   gap: 20px;
   height: 40px;
+  text-align: left;
 }
 
 .skill-header-container h2 {
@@ -39,6 +43,7 @@
 }
 
 .skill ul {
+  width: 65vw;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -62,7 +67,7 @@
   }
   .skill img {
     width: auto;
-    height: 40px;
+    height: 20px;
   }
 
   .skill-header-container h2 {

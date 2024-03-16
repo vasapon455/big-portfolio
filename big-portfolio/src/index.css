@@ -165,7 +165,7 @@ section {
   }
 
   article p {
-    width: auto;
+    width: 65vw;
     height: auto;
     font-size: 12px;
   }
