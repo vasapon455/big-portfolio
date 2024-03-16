@@ -11,7 +11,7 @@ export default function NavBar() {
   };
   useEffect(() => {
     window.addEventListener("scroll", handleScroll, { passive: true });
-    if (scrollPosition > 1300) {
+    if (scrollPosition > 1950) {
       setNavBarPosition("fixed");
     } else {
       setNavBarPosition();
