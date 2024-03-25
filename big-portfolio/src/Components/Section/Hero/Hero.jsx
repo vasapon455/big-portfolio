@@ -13,6 +13,7 @@ export default function Hero() {
       </SectionHeader>
       <div className="grid-layout">
         <GridContainer>
+          {/*Ex. otherWorkData =   [{ id: 1, image: "assets/xxxx.jpg", text: "XXXXX" },{id: 2, image: "assets/xxxx.jpg", text: "XXXXX" },...]*/}
           {otherWorkData.map((data) => (
             <GridItem key={data.id} image={data.image} text={data.text} />
           ))}

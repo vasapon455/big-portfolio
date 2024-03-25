@@ -5,6 +5,8 @@ export default function NavBar() {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [navBarPosition, setNavBarPosition] = useState();
 
+  //Tracking Scroll Position
+
   const handleScroll = () => {
     const position = window.scrollY;
     setScrollPosition(position);
