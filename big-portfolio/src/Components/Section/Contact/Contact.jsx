@@ -1,6 +1,7 @@
 import "./Contact.css";
 
 import { useState, useEffect } from "react";
+import { contact } from "../../Components/Data/Data";
 
 export default function Contact() {
   const date = new Date();
@@ -42,11 +43,11 @@ export default function Contact() {
       <div className="contact-me">
         <h1>Contact</h1>
         <div className="contact-info">
-          <a href="mailto:varut_o@gmail.com">
+          <a href={contact.email1}>
             <img src="assets/email.svg" alt="email icon" />
-            varut_o@gmail.com
+            {contact.email2}
           </a>
-          <a href="https://www.linkedin.com/in/varut-opaswatanakul-4400a9257?originalSubdomain=th">
+          <a href={contact.linkedin}>
             <img src="assets/linkedin.svg" alt="linkedin icon" /> Linkedin
           </a>
         </div>

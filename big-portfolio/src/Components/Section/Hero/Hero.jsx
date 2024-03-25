@@ -1,7 +1,7 @@
 import GridContainer from "../../Components/Grid/GridContainer";
 import SectionHeader from "../../Components/SectionHeader";
 import GridItem from "../../Components/Grid/GridItem";
-import { otherWorkData } from "../../../Data/Data";
+import { otherWorkData } from "../../Components/Data/Data";
 import "./Hero.css";
 
 export default function Hero() {

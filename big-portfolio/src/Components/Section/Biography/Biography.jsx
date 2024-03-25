@@ -1,7 +1,10 @@
 import SectionHeader from "../../Components/SectionHeader";
 import SkillContainer from "../../Components/Skills/SkillContainer";
 import Skill from "../../Components/Skills/Skill";
-import { professionalSkillData, biographyData } from "../../../Data/Data";
+import {
+  professionalSkillData,
+  biographyData,
+} from "../../Components/Data/Data";
 import "./Biography.css";
 
 export default function Biography() {

@@ -1,7 +1,11 @@
 import CardContainer from "../../Components/Card/CardContainer";
 import SectionHeader from "../../Components/SectionHeader";
 import Card from "../../Components/Card/Card";
-import { workHeaderData, workData1, workData2 } from "../../../Data/Data";
+import {
+  workHeaderData,
+  workData1,
+  workData2,
+} from "../../Components/Data/Data";
 
 export default function Works() {
   return (
