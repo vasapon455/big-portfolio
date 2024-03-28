@@ -11,9 +11,9 @@ Feel free to play with my code.
 ------ Installation and Run -----
 1.First clone this respiratory via gitbash terminal
 
-git clone https://github.com/YOUR-USERNAME/Spoon-Knife
+git clone https://github.com/YOUR-USERNAME/Spoon-Knife](https://github.com/vasapon455/big-portfolio.git)
 
-2.Go to the clone location
+2.Go to the clone folder
 
 cd FILEPATH
 
@@ -21,11 +21,11 @@ cd FILEPATH
 
 npm i
 
-4.run server
+4.Run server
 
 npm start
 
-5.enjoy
+5.Enjoy
 
 ------ About Webiste's Data -----
 1.You can find and change the data path in .env file.
