@@ -1,7 +1,7 @@
 import GridContainer from "../../Components/Grid/GridContainer";
 import SectionHeader from "../../Components/SectionHeader";
 import GridItem from "../../Components/Grid/GridItem";
-import { otherWorkData } from "../../Components/Data/Data";
+import { heroWorkData } from "../../Components/Data/Data";
 import "./Hero.css";
 
 export default function Hero() {
@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="grid-layout">
         <GridContainer>
           {/*Ex. otherWorkData =   [{ id: 1, image: "assets/xxxx.jpg", text: "XXXXX" },{id: 2, image: "assets/xxxx.jpg", text: "XXXXX" },...]*/}
-          {otherWorkData.map((data) => (
+          {heroWorkData.map((data) => (
             <GridItem key={data.id} image={data.image} text={data.text} />
           ))}
         </GridContainer>

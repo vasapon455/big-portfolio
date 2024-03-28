@@ -1,9 +1,10 @@
 import "./HighLight.css";
+import { highlight } from "../../Components/Data/Data";
 
 export default function HighLight() {
   return (
     <section id="highlight-section">
-      <img src="assets/highlight.jpg" alt="profile" />
+      <img src={highlight.image} alt="profile" />
     </section>
   );
 }

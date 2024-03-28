@@ -1,12 +1,13 @@
 import "./Contact.css";
-
-import { useState, useEffect } from "react";
 import { contact } from "../../Components/Data/Data";
-
 export default function Contact() {
   const date = new Date();
   const year = date.getUTCFullYear();
 
+  /*
+  import { useState, useEffect } from "react";
+
+  
   const [scrollPosition, setScrollPosition] = useState(0);
   const [footerPosition, setFooterPosition] = useState();
 
@@ -36,10 +37,10 @@ export default function Contact() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [scrollPosition]);
+  }, [scrollPosition]);*/
 
   return (
-    <section id="contact-section" style={footerPosition}>
+    <section id="contact-section">
       <div className="contact-me">
         <h1>Contact</h1>
         <div className="contact-info">
@@ -51,7 +52,9 @@ export default function Contact() {
             <img src="assets/linkedin.svg" alt="linkedin icon" /> Linkedin
           </a>
         </div>
-        <p>Copyright {year} ©Varut Opaswatanakul. All Rights Reserved.</p>
+        <p>
+          Copyright {year} ©{contact.name} All Rights Reserved.
+        </p>
       </div>
     </section>
   );

@@ -1,4 +1,5 @@
 import "./NavBar.css";
+import { navBar } from "../../Components/Data/Data";
 import { useState, useEffect } from "react";
 
 export default function NavBar() {
@@ -26,7 +27,7 @@ export default function NavBar() {
 
   return (
     <nav style={{ position: navBarPosition }}>
-      <img src="assets/logo.svg" alt="logo"></img>
+      <img src={navBar.image} alt="logo" />
       <ul>
         <li>
           <a href="#work-section">Work</a>

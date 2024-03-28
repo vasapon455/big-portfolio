@@ -6,7 +6,6 @@ export default function CardContainer({ header, children }) {
         <h2>{header}</h2>
         <img
           style={{ transform: "rotate(180deg)" }}
-          width="auto"
           src="assets/section-line.svg"
           alt="line"
           className="line"
