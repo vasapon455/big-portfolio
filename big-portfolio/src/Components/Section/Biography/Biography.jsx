@@ -15,7 +15,7 @@ export default function Biography() {
     <section id="biography-section">
       <SectionHeader>
         <h2>Biography</h2>
-        <h1>Varut Opaswatanakul</h1>
+        <h1>XXXXXXX</h1>
       </SectionHeader>
       <article id="biography">
         <div className="article-container">
