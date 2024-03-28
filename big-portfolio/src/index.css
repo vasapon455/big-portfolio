@@ -54,7 +54,7 @@ h4 {
 h5 {
   font-family: "Mitr", sans-serif;
   color: #000000;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
 }
 
@@ -84,7 +84,7 @@ article {
 article img {
   object-fit: cover;
   width: 540px;
-  height: auto;
+  height: 540px;
 }
 
 article p {
