@@ -69,6 +69,7 @@
   { "id": 4, "image": "assets/samplehero4.png", "text": "Hero4" }
 ],
 "biographyData": {
+  "name":"Mango Magnatos",
   "image": "assets/samplebio.png",
   "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur, lacus ac faucibus vestibulum, nisl augue commodo metus, vitae congue leo nisl a lectus. Praesent ut pharetra metus. Integer nec dictum metus. Nam molestie, sem at ultricies elementum, quam massa vestibulum turpis, non porta quam dolor nec risus. Phasellus vel velit nulla. Phasellus vitae tempor massa. Nunc elementum eros et nisi euismod, ut rutrum arcu tempus. Aliquam erat volutpat. Fusce at ex id libero vestibulum iaculis vitae ut libero. Sed aliquam in diam vitae eleifend. Ut in tristique nisl, vitae venenatis orci."
 },"professionalSkillData": [
