@@ -1,0 +1,138 @@
+{
+  "navBar":{
+    "image": "assets/examplelogo.png"
+   },
+"highlight":{
+  "image":"assets/samplebanner.png"
+},
+  "workHeaderData": [
+    { "id": 1,
+      "header": "Section1"
+    },
+    {  "id": 2,
+      "header": "Section2"
+    }
+  ],
+  "workData": [
+    [
+    {
+      "id": 1,
+      "header": "work1",
+      "date": "DD/MM/YYYY",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc, rutrum et turpis a, sollicitudin sodales sapien. Fusce fermentum rhoncus gravida. Nulla mattis sapien nec risus imperdiet, at feugiat urna tristique.",
+      "image": "assets/samplework1.png"
+    },
+    {
+      "id": 2,
+      "header": "work2",
+      "date": "DD/MM/YYYY",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc, rutrum et turpis a, sollicitudin sodales sapien. Fusce fermentum rhoncus gravida. Nulla mattis sapien nec risus imperdiet, at feugiat urna tristique.",
+      "image": "assets/samplework2.png"
+    },
+    {
+      "id": 3,
+      "header": "work3",
+      "date": "DD/MM/YYYY",
+      "text":  "LLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc, rutrum et turpis a, sollicitudin sodales sapien. Fusce fermentum rhoncus gravida. Nulla mattis sapien nec risus imperdiet, at feugiat urna tristique.",
+      "image": "assets/samplework3.png"
+    }
+  ]
+  ,
+  [
+    {
+      "id": 1,
+      "header": "work1",
+      "date": "DD/MM/YYYY",
+      "text":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc, rutrum et turpis a, sollicitudin sodales sapien. Fusce fermentum rhoncus gravida. Nulla mattis sapien nec risus imperdiet, at feugiat urna tristique.",
+      "image": "assets/samplework4.png"
+    },
+    {
+      "id": 2,
+      "header": "work2",
+      "date": "DD/MM/YYYY",
+      "text":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc, rutrum et turpis a, sollicitudin sodales sapien. Fusce fermentum rhoncus gravida. Nulla mattis sapien nec risus imperdiet, at feugiat urna tristique.",
+      "image": "assets/samplework5.png"
+    },
+    {
+      "id": 3,
+      "header": "work3",
+      "date": "DD/MM/YYYY",
+      "text":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc, rutrum et turpis a, sollicitudin sodales sapien. Fusce fermentum rhoncus gravida. Nulla mattis sapien nec risus imperdiet, at feugiat urna tristique.",
+      "image": "assets/samplework6.png"
+  }
+]
+],
+"heroWorkData": [
+  { "id": 1, "image": "assets/samplehero1.png", "text": "Hero1" },
+  { "id": 2, "image": "assets/samplehero2.png", "text": "Hero2" },
+  { "id": 3, "image": "assets/samplehero3.png", "text": "Hero3" },
+  { "id": 4, "image": "assets/samplehero4.png", "text": "Hero4" }
+],
+"biographyData": {
+  "image": "assets/samplebio.png",
+  "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur, lacus ac faucibus vestibulum, nisl augue commodo metus, vitae congue leo nisl a lectus. Praesent ut pharetra metus. Integer nec dictum metus. Nam molestie, sem at ultricies elementum, quam massa vestibulum turpis, non porta quam dolor nec risus. Phasellus vel velit nulla. Phasellus vitae tempor massa. Nunc elementum eros et nisi euismod, ut rutrum arcu tempus. Aliquam erat volutpat. Fusce at ex id libero vestibulum iaculis vitae ut libero. Sed aliquam in diam vitae eleifend. Ut in tristique nisl, vitae venenatis orci."
+},"professionalSkillData": [
+  {
+    "id": 1,
+    "header": "Header1",
+    "body": [
+      { "id": 1, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." },
+      { "id": 2, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." },
+      { "id": 3, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." },
+      { "id": 4, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." }
+    ],
+    "img": "./assets/DAW.svg"
+  },
+  {
+    "id": 2,
+    "header": "Header2",
+    "body": [
+      { "id": 1, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." },
+      { "id": 2, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." },
+      { "id": 3, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." },
+      { "id": 4, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." }
+    ],
+    "img": "./assets/multimedia.svg"
+  },
+  {
+    "id": 3,
+    "header": "Header3",
+    "body": [
+      { "id": 1, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." },
+      { "id": 2, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." },
+      { "id": 3, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." },
+      { "id": 4, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." }
+    ],
+    "img": "./assets/game.svg"
+  },
+  {
+    "id": 4,
+    "header": "Header4",
+    "body": [
+      { "id": 1, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." },
+      { "id": 2, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." },
+      { "id": 3, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." },
+      { "id": 4, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." }
+      
+    ],
+    "img": "./assets/other.svg"
+  },
+  {
+    "id": 5,
+    "header": "Header5",
+    "body": [
+      { "id": 1, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." },
+      { "id": 2, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." },
+      { "id": 3, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." },
+      { "id": 4, "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus nunc." }
+    ],
+    "img": "./assets/award.svg"
+  }],
+  "contact": {
+    "email1": "mailto:xxxx@gmail.com",
+    "email2": "xxxx@gmail.com",
+    "linkedin": "https://www.linkedin.com",
+    "name": "Mango Magnatos"
+  }
+
+}
