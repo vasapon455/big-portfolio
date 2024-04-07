@@ -6,7 +6,7 @@ Thanks for visiting my code.
 
 ------ Installation and Run ----- 1.First clone this respiratory via gitbash terminal
 
-git clone https://github.com/YOUR-USERNAME/Spoon-Knife](https://github.com/vasapon455/big-portfolio.git)
+git clone https://github.com/vasapon455/big-portfolio.git
 
 2.Go to the clone folder
 
